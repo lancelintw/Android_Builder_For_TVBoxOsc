@@ -1,4 +1,4 @@
-name: TVBoxOsc Build Apk
+name: android_build
 
 on:
   workflow_dispatch:
@@ -27,6 +27,6 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v2
         with:
-          name: TVBoxOsc
+          name: my-build-apk
           path: ./**/*.apk
 
