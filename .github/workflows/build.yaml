@@ -1,4 +1,4 @@
-name: TVBoxOsc
+name: TVBoxOsc Build Apk
 
 on:
   workflow_dispatch:
